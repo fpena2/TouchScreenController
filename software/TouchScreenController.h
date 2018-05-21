@@ -22,15 +22,11 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		
 		// SERIAL COMM
-		ofSerial	serial;
+		ofSerial serial;
 		
 
 
 		// 3D GRAPHYCS 
-		//ofPolyline line;
-
-		ofNode baseNode;
-		ofNode childNode;
 		ofNode grandChildNode;
 		ofPolyline line;
 		ofEasyCam cam;
